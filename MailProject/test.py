@@ -9,7 +9,7 @@ with open('readme.txt', 'a') as f:
 
 # start = (22/Apr/2022)[12:00]
 
-messageContent = "A new lesson for Donijah Schoenenberger has been scheduled for Monday, February 7, 2022, 05:30 PM, Eastern Time (US and Canada) accessed via this link: https://idtech.zoom.us/j/93327197987.&nbsp;<br />"
+messageContent = "A new lesson for [REDACTED] has been scheduled for Monday, February 7, 2022, 05:30 PM, Eastern Time (US and Canada) accessed via this link: [REDACTED].&nbsp;<br />"
 start = messageContent.index("scheduled for")
 end = messageContent.index('Eastern Time')
 
